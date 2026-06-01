@@ -1,26 +1,33 @@
-# Linux Process Management and Networking
+# ⚙️ Linux Process Management and Networking
 
-## 1. Overview
+
+## 🖼️ Quick Visual Summary
+
+![Quick Summary: Linux Process Management and Networking](../assets/topic-summaries/linux-process-management-networking.svg)
+
+> **⚡ 80/20 Summary:** Processes consume CPU/RAM • services run in background • ports show listeners • logs explain crashes
+
+## 1. 🎯 Overview
 In a DevOps environment, applications (databases, web servers) run as **"Processes"** within Linux. These processes often need to communicate over the network using **Ports**. Mastering how to find, monitor, kill processes, and analyze network traffic is a non-negotiable debugging skill.
 
-## 2. Why This Matters
+## 2. 💡 Why This Matters
 - **Outage Resolution:** When a Java app consumes 100% CPU, you need to identify the process and kill it immediately.
 - **Port Collisions:** When Docker fails to start a container because "Port 80 is already in use," you must know how to find the rogue process holding the port hostage.
 - **Firewall Diagnostics:** If a microservice cannot reach the database, you must test the network connectivity locally via the shell.
 
-## 3. Core Concepts
+## 3. 🧠 Core Concepts
 - **PID (Process ID):** A unique number assigned by the Kernel to every running process.
 - **Top / Htop:** Tools that provide a real-time, dynamic view of running system processes and CPU/RAM consumption.
 - **Daemons / Services:** Processes configured to start automatically on boot and run in the background (managed by `systemd`).
 - **Ports & Bindings:** A process "binds" to a network port (like port 443) to listen for incoming traffic. Only one process can bind to a port at a time.
 
-## 4. Architecture / Workflow
+## 4. 🧭 Architecture / Workflow
 1. **Process Creation:** A command is run (e.g., `nginx`), the kernel gives it a PID and allocates memory.
 2. **Network Binding:** The process requests the Kernel to bind to TCP Port 80. 
 3. **Listening Hook:** Data arriving at the server's network card on Port 80 is routed directly to the Nginx process.
 4. **Termination:** The process is stopped cleanly (SIGTERM) or forcefully (SIGKILL), freeing up the RAM and the Port.
 
-## 5. Commands & Practical Usage
+## 5. 🛠️ Commands & Practical Usage
 
 See real-time CPU and Memory usage:
 ```bash
@@ -58,7 +65,7 @@ telnet database.internal 5432
 nc -zv database.internal 5432
 ```
 
-## 6. Configuration / Code Examples
+## 6. ⚙️ Configuration / Code Examples
 A simple `systemd` configuration file (`/etc/systemd/system/myapp.service`) to manage a background application:
 
 ```ini
@@ -77,7 +84,7 @@ WantedBy=multi-user.target
 ```
 > *You apply this via: `systemctl enable myapp` and `systemctl start myapp`.*
 
-## 7. Hands-on Step-by-Step (VERY IMPORTANT)
+## 7. 🧪 Hands-on Step-by-Step
 
 **Step 1: Start a generic background process**
 ```bash
@@ -112,7 +119,7 @@ ss -tulpn | grep 9000
 kill -9 <PID>
 ```
 
-## 8. Common Errors & Troubleshooting
+## 8. 🚨 Common Errors & Troubleshooting
 
 - **Error: `Address already in use (bind failed)`**
   - **Issue:** Your app is trying to start on Port 80, but Nginx or Apache is already running on that port.
@@ -124,12 +131,12 @@ kill -9 <PID>
   - **Issue:** A firewall (like AWS Security Groups or `ufw`) is dropping the packets.
   - **Fix:** Open the required port in your infrastructure's firewall rules.
 
-## 9. Best Practices
+## 9. ✅ Best Practices
 1. **Never use `kill -9` immediately:** Always try a regular `kill <PID>` first (SIGTERM). This allows the application to cleanly save data and close database connections. Only use `-9` (SIGKILL) if it's completely frozen.
 2. **Bind exclusively to localhost if private:** If an application doesn't need to be accessed from the outside (like a local cache), configure it to listen on `127.0.0.1:port` rather than `0.0.0.0:port` for security.
 3. **Use Systemd for persistence:** Do not use `tmux` or `screen` to run production apps. Write a `systemd` service file so Linux automatically restarts the app if it crashes.
 
-## 10. Interview Questions & Answers
+## 10. 🎤 Interview Questions & Answers
 
 **Q1: What is a Zombie process?**
 **A1:** A process that has completed execution but still has an entry in the process table because its parent process hasn't read its exit status. 
@@ -146,12 +153,12 @@ kill -9 <PID>
 **Q5: What command helps you find the PID holding port 443?**
 **A5:** `netstat -tulpn | grep 443` or `ss -tulpn | grep 443`.
 
-## 11. Quick Revision Summary
+## 11. ⚡ Quick Revision Summary
 - **ps aux:** Snapshot of all running processes.
 - **kill:** Sends termination signals to PIDs. Use `-9` as a last resort.
 - **netstat / ss:** Verifies which processes are bound to which network ports.
 - **nc / telnet:** Tests firewall and port accessibility across networks.
 
-## 12. Official Documentation Links
+## 12. 🔗 Official Documentation Links
 - [Linux man-pages: ps(1)](https://man7.org/linux/man-pages/man1/ps.1.html)
 - [Linux man-pages: ss(8)](https://man7.org/linux/man-pages/man8/ss.8.html)

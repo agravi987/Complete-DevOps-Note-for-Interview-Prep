@@ -1,0 +1,64 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">DevOps 80/20 Roadmap</title>
+  <desc id="desc">A visual roadmap showing Linux, networking, Docker, Kubernetes, CI/CD, cloud, Terraform, and monitoring.</desc>
+  <rect width="1200" height="420" rx="24" fill="#0f172a"/>
+  <rect x="34" y="34" width="1132" height="352" rx="18" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="70" y="96" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">DevOps 80/20 Roadmap</text>
+  <text x="70" y="132" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="18">Master the small set of concepts that power most real-world DevOps work.</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <line x1="150" y1="238" x2="1050" y2="238" stroke="#475569" stroke-width="5" stroke-linecap="round"/>
+
+    <g transform="translate(88 182)">
+      <circle cx="62" cy="56" r="48" fill="#f59e0b"/>
+      <text x="62" y="51" text-anchor="middle" fill="#111827" font-size="14" font-weight="700">01</text>
+      <text x="62" y="72" text-anchor="middle" fill="#111827" font-size="17" font-weight="800">Linux</text>
+    </g>
+
+    <g transform="translate(216 182)">
+      <circle cx="62" cy="56" r="48" fill="#22c55e"/>
+      <text x="62" y="51" text-anchor="middle" fill="#052e16" font-size="14" font-weight="700">02</text>
+      <text x="62" y="72" text-anchor="middle" fill="#052e16" font-size="16" font-weight="800">Network</text>
+    </g>
+
+    <g transform="translate(344 182)">
+      <circle cx="62" cy="56" r="48" fill="#38bdf8"/>
+      <text x="62" y="51" text-anchor="middle" fill="#082f49" font-size="14" font-weight="700">03</text>
+      <text x="62" y="72" text-anchor="middle" fill="#082f49" font-size="17" font-weight="800">Docker</text>
+    </g>
+
+    <g transform="translate(472 182)">
+      <circle cx="62" cy="56" r="48" fill="#60a5fa"/>
+      <text x="62" y="51" text-anchor="middle" fill="#172554" font-size="14" font-weight="700">04</text>
+      <text x="62" y="72" text-anchor="middle" fill="#172554" font-size="15" font-weight="800">K8s</text>
+    </g>
+
+    <g transform="translate(600 182)">
+      <circle cx="62" cy="56" r="48" fill="#fb7185"/>
+      <text x="62" y="51" text-anchor="middle" fill="#4c0519" font-size="14" font-weight="700">05</text>
+      <text x="62" y="72" text-anchor="middle" fill="#4c0519" font-size="16" font-weight="800">CI/CD</text>
+    </g>
+
+    <g transform="translate(728 182)">
+      <circle cx="62" cy="56" r="48" fill="#a78bfa"/>
+      <text x="62" y="51" text-anchor="middle" fill="#2e1065" font-size="14" font-weight="700">06</text>
+      <text x="62" y="72" text-anchor="middle" fill="#2e1065" font-size="16" font-weight="800">Cloud</text>
+    </g>
+
+    <g transform="translate(856 182)">
+      <circle cx="62" cy="56" r="48" fill="#c084fc"/>
+      <text x="62" y="51" text-anchor="middle" fill="#3b0764" font-size="14" font-weight="700">07</text>
+      <text x="62" y="72" text-anchor="middle" fill="#3b0764" font-size="14" font-weight="800">Terraform</text>
+    </g>
+
+    <g transform="translate(984 182)">
+      <circle cx="62" cy="56" r="48" fill="#2dd4bf"/>
+      <text x="62" y="51" text-anchor="middle" fill="#042f2e" font-size="14" font-weight="700">08</text>
+      <text x="62" y="72" text-anchor="middle" fill="#042f2e" font-size="14" font-weight="800">Monitor</text>
+    </g>
+
+    <text x="70" y="335" fill="#e2e8f0" font-size="20" font-weight="700">Focus:</text>
+    <text x="140" y="335" fill="#cbd5e1" font-size="20">commands + architecture + troubleshooting + interview explanations</text>
+  </g>
+</svg>
+

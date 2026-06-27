@@ -10,6 +10,8 @@
 
 Ravi, this is the foundation of everything that talks over the network.
 
+Tiny joke: networking is basically trying to find the right door in a very large building. 🚪😄
+
 Networking connects users, servers, containers, Kubernetes clusters, cloud services, and CI/CD systems.
 When something fails, it often looks like a networking problem first.
 

@@ -10,6 +10,8 @@
 
 Ravi, start here. 🌟
 
+Tiny joke: Linux is serious, but the terminal will not judge your outfit. 😄
+
 Linux is the operating system backbone of servers, cloud machines, containers, and DevOps tools.
 It became important because teams needed a stable, lightweight, scriptable system for running real production workloads.
 

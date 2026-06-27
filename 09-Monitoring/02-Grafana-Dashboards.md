@@ -1,4 +1,5 @@
 # 📊 Grafana Dashboards and Visualization
+Ravi, this is your app smoke alarm and mirror rolled into one. 🚨🪞
 
 
 ## 🖼️ Quick Visual Summary

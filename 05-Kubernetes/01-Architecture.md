@@ -10,6 +10,8 @@
 
 Ravi, focus on this first. 🌟
 
+Tiny joke: Kubernetes is the team lead that never sleeps. 🤖☕
+
 Kubernetes was created because running containers manually becomes messy very fast.
 One container is easy.
 Ten containers is manageable.

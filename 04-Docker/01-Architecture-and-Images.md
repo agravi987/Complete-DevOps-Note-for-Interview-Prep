@@ -10,6 +10,8 @@
 
 Ravi, Docker was created to solve the classic "it works on my machine" problem.
 
+Tiny joke: Docker makes apps portable because apps are terrible at packing themselves. 📦😄
+
 It lets you package an app with everything it needs so the app behaves the same on your laptop, a test server, or a cloud VM.
 
 ## 2. Real-Life Analogy

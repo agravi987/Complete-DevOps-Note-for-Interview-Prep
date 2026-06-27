@@ -9,6 +9,8 @@
 ## 1. Big Picture
 
 Ravi, Git exists because teams needed a better way to remember code changes.
+
+Tiny joke: Git remembers everything, including that one commit you wish it would forget. 😄
 Instead of manually copying files like `final_v2_really_final`, Git gives you a clean history of every meaningful change.
 
 That matters because code changes over time, teams collaborate, and mistakes happen.

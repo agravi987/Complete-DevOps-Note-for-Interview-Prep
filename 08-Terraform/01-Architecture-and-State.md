@@ -1,4 +1,5 @@
 # 🏗️ Terraform Architecture and State
+Ravi, this is the LEGO set for infrastructure, but with fewer missing pieces. 🧱😄
 
 
 ## 🖼️ Quick Visual Summary

@@ -8,6 +8,8 @@ Ravi, this section is your friendly guide to packaging apps, running containers,
 
 Ravi, follow this order so Docker feels natural.
 
+Tiny joke: Docker is a lunchbox for apps, and yes, apps can be picky eaters. 🍱😄
+
 1. Architecture and Images 📦
 2. Containers and Networking 🌐
 3. Volumes and Storage 💾
@@ -23,4 +25,3 @@ Ravi, follow this order so Docker feels natural.
 ## 💡 How To Read This Section
 
 Ravi, learn the image first, then the container, then networking, then storage, then Compose. That gives you the full Docker story.
-

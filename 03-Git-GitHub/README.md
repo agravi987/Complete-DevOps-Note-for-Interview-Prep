@@ -8,6 +8,8 @@ Ravi, this section is your friendly map for learning how code history and team c
 
 Ravi, follow this order so the story feels smooth.
 
+Tiny joke: Git is the notebook that remembers your mistakes so you do not have to. 😅📓
+
 1. Git Fundamentals first 🧠
 2. GitHub Collaboration next 🤝
 3. Practice locally, then push to GitHub 🔁

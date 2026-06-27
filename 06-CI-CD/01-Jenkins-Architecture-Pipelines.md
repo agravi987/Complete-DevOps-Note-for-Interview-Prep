@@ -1,4 +1,5 @@
 # 🧰 Jenkins Architecture and Pipelines
+Ravi, this is where code turns into a little delivery robot that never forgets its job. 🤖📦
 
 
 ## 🖼️ Quick Visual Summary

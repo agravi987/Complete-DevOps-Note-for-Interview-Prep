@@ -1,4 +1,5 @@
 # 🕸️ AWS VPC and Networking
+Ravi, think of the cloud like a giant playground in the sky where your apps get to run. ☁️🛝
 
 
 ## 🖼️ Quick Visual Summary

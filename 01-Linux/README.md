@@ -8,6 +8,8 @@ Ravi, this section is your friendly guide to the operating system that powers mo
 
 Ravi, follow this order so the ideas build naturally.
 
+Tiny joke: Linux is like a very serious wizard who still knows how to dance. 🧙‍♂️💃
+
 1. Linux Architecture and Basics 🧠
 2. File Permissions and Ownership 🔐
 3. Process Management and Networking ⚙️
@@ -29,4 +31,3 @@ Ravi, read the why first, then the mental picture, and only then the command. Th
 - Filesystem = the big tree where everything lives
 - Permissions = who can do what
 - Processes = what is currently running
-

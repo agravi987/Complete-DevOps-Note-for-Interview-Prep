@@ -8,6 +8,8 @@ Ravi, this section is your friendly guide to how traffic moves from names to IPs
 
 Ravi, follow this order so the pieces feel natural.
 
+Tiny joke: packets are just tiny delivery carts with confidence issues. 📦😄
+
 1. Networking Fundamentals
 2. DNS, HTTP, and Load Balancing
 3. Ports, Firewalls, and Troubleshooting
@@ -21,4 +23,3 @@ Ravi, follow this order so the pieces feel natural.
 ## 💡 How To Read This Section
 
 Ravi, read the request flow first, then the protocols, then the debugging commands. That order makes networking much less scary. 🙂
-

@@ -13,6 +13,8 @@ Minimal, practical DevOps notes for interviews, hands-on practice, and quick rev
 
 > **80/20 rule:** learn the 20% of concepts that explain 80% of daily DevOps work.
 
+Ravi, this is the kind of notebook you can revisit later without feeling like it is yelling at you. 😄📚
+
 ## Curriculum Map
 
 | # | Module | Focus |

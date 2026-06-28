@@ -1,6 +1,6 @@
 # ☸️ Kubernetes Notes
 
-👋 Hey Ravi! Before you begin, write your name here: __________________
+👋 Hey Ravi! Before you begin, write your name here: ********\_\_********
 
 🌟 Welcome to the Kubernetes chapter — the part where containers stop being mysterious and start acting like a well-managed team. Think of it as learning the operating system for modern apps. 🧠✨
 

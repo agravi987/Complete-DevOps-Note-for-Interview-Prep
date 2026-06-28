@@ -1,6 +1,6 @@
 ﻿# 🚀 Deployments
 
-Ravi, imagine you are teaching a new app to behave itself in a Kubernetes cluster. That is exactly what a Deployment does. 🌱
+Ravi, imagine you are teaching a new app to behave itself in a Kubernetes cluster. That is exactly what a Deployment does. 🌱✨ It is the smooth operator that keeps your app alive while changes roll out.
 
 😄 Joke: A Deployment is like a responsible parent who says, “I will keep your app running, even while I change its outfit.”
 

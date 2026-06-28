@@ -1,6 +1,8 @@
 ﻿# 🌱 Phase 1 - Core Kubernetes
 
-👋 Hello, Ravi! This is the phase where Kubernetes stops feeling like random YAML and starts feeling like a system you can actually explain.
+👋 Hello, Ravi! This is the phase where Kubernetes stops feeling like random YAML and starts feeling like a system you can actually explain. 🚀
+
+💡 Think of this phase as your foundation lab — the place where the big ideas finally start clicking.
 
 ✅ Go in order. Each note is self-contained, simple, and written to help you revise fast without turning your brain into scrambled eggs.
 

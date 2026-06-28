@@ -47,7 +47,7 @@ YAML file -> kubectl apply -> API Server -> running object
 
 ## Manifest example
 
-A clean example is stored in [manifests/deployment.yaml](manifests/deployment.yaml).
+✨ Here is a clean example written directly inside the note so it is easy to read and copy.
 
 ```yaml
 apiVersion: apps/v1

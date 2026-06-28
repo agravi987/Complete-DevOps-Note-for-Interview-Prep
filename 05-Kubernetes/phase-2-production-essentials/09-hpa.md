@@ -116,5 +116,4 @@ kubectl get hpa -w
 
 ---
 
-> **Woohoo! Phase 2 is COMPLETE! 🎉** You just leveled up your production skills massively. Ready for the deep DevOps stuff? 
-> **Back to:** [Phase 2 README](README.md) | **Next Phase:** [Phase 3 - Important for DevOps](../phase-3-important-devops/README.md) 🚀
+> Next → [Troubleshooting Guide](10-interview-troubleshooting.md) 🚀

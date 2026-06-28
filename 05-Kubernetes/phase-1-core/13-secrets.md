@@ -249,4 +249,4 @@ kubectl exec -it my-pod -- cat /etc/secrets/DB_PASSWORD
 
 > **You're Phase 1 certified, Ravi! 🚀🎓** You now understand the foundation of Kubernetes. Real clusters run on exactly these concepts. Go to Phase 2 when you're comfortable — don't rush, revise these first! 💪
 
-**Back to:** [Phase 1 README](README.md) | [Phase 2 →](../phase-2-production-essentials/)
+**Back to:** [Phase 1 README](README.md) | **Next Phase:** [Phase 2 - Production Essentials](../phase-2-production-essentials/README.md) 🚀

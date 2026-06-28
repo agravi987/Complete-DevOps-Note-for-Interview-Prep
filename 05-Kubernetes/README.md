@@ -105,21 +105,56 @@ Each file follows this pattern — and it's intentional:
 
 | Need to look up... | Go here |
 |---|---|
-| How clusters are structured | [Phase 1 - Architecture](phase-1-core/01-kubernetes-architecture.md) |
-| What each component does | [Phase 1 - Components](phase-1-core/02-components.md) |
-| What a Pod is | [Phase 1 - Pods](phase-1-core/03-pods.md) |
-| How to run multiple containers | [Phase 1 - Multi-Container Pods](phase-1-core/04-multi-container-pods.md) |
-| How to keep apps alive | [Phase 1 - ReplicaSets](phase-1-core/05-replicasets.md) |
-| Rolling updates + rollback | [Phase 1 - Deployments](phase-1-core/06-deployments.md) |
-| Organizing the cluster | [Phase 1 - Namespaces](phase-1-core/07-namespaces.md) |
-| How objects connect | [Phase 1 - Labels & Selectors](phase-1-core/08-labels-selectors.md) |
-| Network access to Pods | [Phase 1 - Services](phase-1-core/09-services.md) |
-| Daily kubectl commands | [Phase 1 - kubectl](phase-1-core/10-kubectl-commands.md) |
-| Writing YAML | [Phase 1 - YAML Manifests](phase-1-core/11-yaml-manifest-files.md) |
-| Non-sensitive config | [Phase 1 - ConfigMaps](phase-1-core/12-configmaps.md) |
-| Passwords and secrets | [Phase 1 - Secrets](phase-1-core/13-secrets.md) |
-| Production stability | [Phase 2 - Production Essentials](phase-2-production-essentials) |
-| RBAC and security | [Phase 3 - DevOps](phase-3-important-devops) |
+| **🌱 Phase 1 - Core Kubernetes** | |
+| How clusters are structured | [01 - Architecture](phase-1-core/01-kubernetes-architecture.md) |
+| What each component does | [02 - Components](phase-1-core/02-components.md) |
+| What a Pod is | [03 - Pods](phase-1-core/03-pods.md) |
+| How to run multiple containers | [04 - Multi-Container Pods](phase-1-core/04-multi-container-pods.md) |
+| How to keep apps alive | [05 - ReplicaSets](phase-1-core/05-replicasets.md) |
+| Rolling updates + rollback | [06 - Deployments](phase-1-core/06-deployments.md) |
+| Organizing the cluster | [07 - Namespaces](phase-1-core/07-namespaces.md) |
+| How objects connect | [08 - Labels & Selectors](phase-1-core/08-labels-selectors.md) |
+| Network access to Pods | [09 - Services](phase-1-core/09-services.md) |
+| Daily kubectl commands | [10 - kubectl Commands](phase-1-core/10-kubectl-commands.md) |
+| Writing YAML | [11 - YAML Manifests](phase-1-core/11-yaml-manifest-files.md) |
+| Non-sensitive config | [12 - ConfigMaps](phase-1-core/12-configmaps.md) |
+| Passwords and secrets | [13 - Secrets](phase-1-core/13-secrets.md) |
+| **⚙️ Phase 2 - Production Essentials** | |
+| Zero-downtime upgrades | [01 - Rolling Updates](phase-2-production-essentials/01-rolling-updates.md) |
+| App health checks | [02 - Liveness & Readiness Probes](phase-2-production-essentials/02-liveness-readiness-probes.md) |
+| CPU and Memory Limits | [03 - Resource Requests & Limits](phase-2-production-essentials/03-resource-requests-limits.md) |
+| Storage & Hard drives | [04 - Persistent Volumes (PV/PVC)](phase-2-production-essentials/04-persistent-volumes.md) |
+| One-off tasks & schedules | [05 - Jobs & CronJobs](phase-2-production-essentials/05-jobs-cronjobs.md) |
+| Stateful apps (Databases) | [06 - StatefulSets](phase-2-production-essentials/06-statefulsets.md) |
+| One pod per node (Logging) | [07 - DaemonSets](phase-2-production-essentials/07-daemonsets.md) |
+| Web Routing (Host/Path) | [08 - Ingress](phase-2-production-essentials/08-ingress.md) |
+| Auto-scaling pods by CPU | [09 - Horizontal Pod Autoscaler (HPA)](phase-2-production-essentials/09-hpa.md) |
+| Fixing broken clusters | [10 - Interview Troubleshooting](phase-2-production-essentials/10-interview-troubleshooting.md) |
+| **🛡️ Phase 3 - Important for DevOps** | |
+| Forcing pods onto nodes | [01 - Scheduling (Taints/Affinities)](phase-3-important-devops/01-scheduling.md) |
+| User Permissions | [02 - RBAC](phase-3-important-devops/02-rbac.md) |
+| Pod Permissions (AWS/GCP) | [03 - Service Accounts](phase-3-important-devops/03-service-accounts.md) |
+| Internal Firewalls | [04 - Network Policies](phase-3-important-devops/04-network-policies.md) |
+| K8s Package Manager | [05 - Helm](phase-3-important-devops/05-helm.md) |
+| Tracking CPU/Memory usage | [06 - Metrics Server](phase-3-important-devops/06-metrics-server-monitoring.md) |
+| Auto-scaling cloud servers | [07 - Cluster Autoscaler](phase-3-important-devops/07-cluster-autoscaler.md) |
+| Surviving maintenance | [08 - Pod Disruption Budgets](phase-3-important-devops/08-pod-disruption-budgets.md) |
+| **🔬 Phase 4 - Advanced Kubernetes** | |
+| YAML Overlays (Dev/Prod) | [01 - Kustomize](phase-4-advanced/01-kustomize.md) |
+| Extending the K8s API | [02 - Custom Resource Definitions (CRDs)](phase-4-advanced/02-custom-resource-definitions.md) |
+| Robot Administrators | [03 - Operators](phase-4-advanced/03-operators.md) |
+| Intercepting API requests | [04 - Admission Controllers](phase-4-advanced/04-admission-controllers.md) |
+| Securing containers from root | [05 - Pod Security Standards](phase-4-advanced/05-pod-security.md) |
+| Dynamic Cloud Disks | [06 - Advanced Storage (CSI)](phase-4-advanced/06-storage-advanced.md) |
+| Network Plugins | [07 - CNI & Networking](phase-4-advanced/07-cni-networking.md) |
+| **🧠 Phase 5 - Expert Topics** | |
+| How K8s picks nodes | [01 - Scheduler Internals](phase-5-expert/01-scheduler-internals.md) |
+| How K8s self-heals | [02 - Controller Internals](phase-5-expert/02-controller-internals.md) |
+| The K8s Brain | [03 - etcd Deep Dive](phase-5-expert/03-etcd-deep-dive.md) |
+| How Services route traffic | [04 - Networking Internals (iptables/IPVS)](phase-5-expert/04-networking-internals.md) |
+| Auto-deploy from GitHub | [05 - GitOps (ArgoCD/Flux)](phase-5-expert/05-gitops.md) |
+| Surviving data center fires | [06 - HA & Disaster Recovery](phase-5-expert/06-ha-and-disaster-recovery.md) |
+| Hardening the cluster | [07 - Security Hardening](phase-5-expert/07-security-hardening.md) |
 
 ---
 

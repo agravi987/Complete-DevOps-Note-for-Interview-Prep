@@ -1,7 +1,6 @@
-﻿# Kubernetes Components
+﻿# 🧩 Kubernetes Components
 
-
-Ravi, keep this note simple. The components are the parts that make the cluster think, schedule, run, and network your Pods.
+Ravi, this is the cast list of the Kubernetes show. 🎭 Each component has a job, and together they make the whole cluster function.
 
 ## Simple Definition
 Kubernetes Components explains how to solve one real Kubernetes problem in a practical way.

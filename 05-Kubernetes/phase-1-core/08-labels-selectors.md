@@ -1,7 +1,6 @@
-﻿# Labels and Selectors
+﻿# 🏷️ Labels and Selectors
 
-
-Ravi, keep this note simple. Labels tag Kubernetes objects, and selectors find the objects that match.
+Ravi, labels are like sticky tags on objects, and selectors are the search tool that finds the right ones. 🔎 It is how Kubernetes knows what to work with.
 
 ## Simple Definition
 Labels and Selectors explains how to solve one real Kubernetes problem in a practical way.

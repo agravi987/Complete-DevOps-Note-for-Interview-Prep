@@ -1,7 +1,6 @@
-﻿# ConfigMaps
+﻿# 🧾 ConfigMaps
 
-
-Ravi, keep this note simple. ConfigMaps store non-sensitive configuration so your app can read values without rebuilding the image.
+Ravi, a ConfigMap is like a notebook of settings for your app. 📓 It keeps non-sensitive configuration outside the image so you can change it easily.
 
 ## Simple Definition
 ConfigMaps explains how to solve one real Kubernetes problem in a practical way.

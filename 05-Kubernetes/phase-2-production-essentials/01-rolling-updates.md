@@ -1,9 +1,9 @@
-﻿# Rolling Updates
+﻿# 🔄 Rolling Updates
 ## Quick Visual Summary
 
 > **80/20 Summary:** change gradually, keep old Pods alive, and keep rollback ready.
 
-Ravi, keep this note simple. Rolling updates replace old Pods with new Pods little by little so users keep getting service.
+Ravi, rolling updates are how Kubernetes upgrades your app without making everyone stare at a downtime screen. 😄 It swaps Pods gradually and keeps the service alive.
 
 ## Simple Definition
 Rolling Updates explains how to solve one real Kubernetes problem in a practical way.

@@ -1,11 +1,11 @@
-﻿# Kubernetes Architecture
+﻿# ☸️ Kubernetes Architecture
 ## Quick Visual Summary
 
 ![Quick Summary: Kubernetes Architecture](../../assets/topic-summaries/kubernetes-architecture.svg)
 
 > **80/20 Summary:** Kubernetes turns many containers on many machines into one system you can control with YAML.
 
-Ravi, keep this note simple. Kubernetes architecture explains how the control plane and worker nodes work together to run containerized apps.
+Ravi, think of this as the big-picture map of the cluster. 🌍 The control plane and worker nodes work together like a team so your apps can run smoothly.
 
 ## Simple Definition
 Kubernetes Architecture explains how to solve one real Kubernetes problem in a practical way.

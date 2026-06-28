@@ -1,7 +1,6 @@
-﻿# YAML Manifest Files
+﻿# 📄 YAML Manifest Files
 
-
-Ravi, keep this note simple. YAML is the format you use to tell Kubernetes what you want to run.
+Ravi, YAML is the language you use to speak to Kubernetes. 🗣️ If you write the manifest clearly, the cluster understands your intention.
 
 ## Simple Definition
 YAML Manifest Files explains how to solve one real Kubernetes problem in a practical way.

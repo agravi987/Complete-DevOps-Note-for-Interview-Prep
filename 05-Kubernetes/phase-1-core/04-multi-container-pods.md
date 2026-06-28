@@ -1,7 +1,6 @@
-﻿# Multi-Container Pods
+﻿# 🧠 Multi-Container Pods
 
-
-Ravi, keep this note simple. A multi-container Pod runs more than one container together because they help each other closely.
+Ravi, sometimes one container is not enough, so Kubernetes lets two or more work together in the same Pod. 🤝 They stay close because they need to communicate fast.
 
 ## Simple Definition
 Multi-Container Pods explains how to solve one real Kubernetes problem in a practical way.

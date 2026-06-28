@@ -1,6 +1,6 @@
 # ☸️ Kubernetes Notes
 
-👋 Hey learner! Before you begin, write your name here: __________________
+👋 Hey learner! Before you begin, write your name here: ********\_\_********
 
 🌟 Welcome to the Kubernetes chapter — the part where containers stop being mysterious and start acting like a well-managed team.
 
@@ -24,13 +24,13 @@ The goal is simple: learn the core ideas, practice the commands, and build enoug
 
 ## 🚀 Learning Phases
 
-| Phase | Focus | What you should learn |
-| --- | --- | --- |
-| [Phase 1 - Core Kubernetes](phase-1-core) | Foundation | Architecture, Pods, Deployments, Services, ConfigMaps, Secrets |
-| [Phase 2 - Production Essentials](phase-2-production-essentials) | Day-to-day ops | Updates, probes, storage, Jobs, CronJobs, Stateful workloads, Ingress, HPA |
-| [Phase 3 - Important for DevOps](phase-3-important-devops) | Real cluster work | Scheduling, RBAC, ServiceAccounts, NetworkPolicies, Helm, metrics, PDB |
-| [Phase 4 - Advanced Kubernetes](phase-4-advanced) | Platform skills | Kustomize, CRDs, Operators, webhooks, security standards, CSI, CNI |
-| [Phase 5 - Expert Topics](phase-5-expert) | Deep internals | Scheduler, controllers, API server, etcd, networking internals, GitOps, DR, HA, security hardening |
+| Phase                                                            | Focus             | What you should learn                                                                              |
+| ---------------------------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------- |
+| [Phase 1 - Core Kubernetes](phase-1-core)                        | Foundation        | Architecture, Pods, Deployments, Services, ConfigMaps, Secrets                                     |
+| [Phase 2 - Production Essentials](phase-2-production-essentials) | Day-to-day ops    | Updates, probes, storage, Jobs, CronJobs, Stateful workloads, Ingress, HPA                         |
+| [Phase 3 - Important for DevOps](phase-3-important-devops)       | Real cluster work | Scheduling, RBAC, ServiceAccounts, NetworkPolicies, Helm, metrics, PDB                             |
+| [Phase 4 - Advanced Kubernetes](phase-4-advanced)                | Platform skills   | Kustomize, CRDs, Operators, webhooks, security standards, CSI, CNI                                 |
+| [Phase 5 - Expert Topics](phase-5-expert)                        | Deep internals    | Scheduler, controllers, API server, etcd, networking internals, GitOps, DR, HA, security hardening |
 
 ## 📖 How to use these notes
 
@@ -60,13 +60,13 @@ Use these if you want a quick memory hook while studying:
 
 ## 🔎 Quick Navigation
 
-| Need help with... | Open this phase |
-| --- | --- |
-| Control plane basics | [Phase 1 - Core Kubernetes](phase-1-core) |
-| Production stability | [Phase 2 - Production Essentials](phase-2-production-essentials) |
-| Scheduling and security | [Phase 3 - Important for DevOps](phase-3-important-devops) |
-| CRDs and platform building | [Phase 4 - Advanced Kubernetes](phase-4-advanced) |
-| Internals and large-scale design | [Phase 5 - Expert Topics](phase-5-expert) |
+| Need help with...                | Open this phase                                                  |
+| -------------------------------- | ---------------------------------------------------------------- |
+| Control plane basics             | [Phase 1 - Core Kubernetes](phase-1-core)                        |
+| Production stability             | [Phase 2 - Production Essentials](phase-2-production-essentials) |
+| Scheduling and security          | [Phase 3 - Important for DevOps](phase-3-important-devops)       |
+| CRDs and platform building       | [Phase 4 - Advanced Kubernetes](phase-4-advanced)                |
+| Internals and large-scale design | [Phase 5 - Expert Topics](phase-5-expert)                        |
 
 ## 🌈 Final note
 

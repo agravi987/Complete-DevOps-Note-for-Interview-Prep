@@ -1,11 +1,11 @@
-﻿# Services
+﻿# 🌐 Services
 ## Quick Visual Summary
 
 ![Quick Summary: Kubernetes Services and Networking](../../assets/topic-summaries/kubernetes-services-networking.svg)
 
 > **80/20 Summary:** Pods are temporary, Services are stable, and kube-proxy sends traffic to the right Pod.
 
-Ravi, keep this note simple. A Service gives a stable network endpoint to a changing set of Pods.
+Ravi, a Service is the friendly front desk for your Pods. 🛎️ It gives traffic a stable address even when the Pods behind it keep changing.
 
 ## Simple Definition
 Services explains how to solve one real Kubernetes problem in a practical way.

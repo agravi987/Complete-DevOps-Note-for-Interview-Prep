@@ -1,11 +1,11 @@
-﻿# Pods
+﻿# 🫧 Pods
 ## Quick Visual Summary
 
 ![Quick Summary: Pods and ReplicaSets](../../assets/topic-summaries/pods-replicasets.svg)
 
 > **80/20 Summary:** Pods run the work, and higher-level controllers keep them alive.
 
-Ravi, keep this note simple. A Pod is the smallest unit Kubernetes actually runs.
+Ravi, think of a Pod as the tiniest apartment where your app lives. 🏠 It is the smallest thing Kubernetes actually runs for you.
 
 ## Simple Definition
 Pods explains how to solve one real Kubernetes problem in a practical way.
